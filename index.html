@@ -2,70 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SEA Esports Network Official </title>
+  <title>ELIT SEA Esports Network</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      text-align: center;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #111;
-      color: #fff;
+      background: linear-gradient(180deg, #000 0%, #111 100%);
+      color: #FFD700;
+      text-align: center;
     }
     header {
-      background-color: #222;
+      background-color: #000;
       padding: 20px;
-    }
-    header img {
-      height: 80px;
+      border-bottom: 2px solid #FFD700;
     }
     h1 {
+      font-size: 2.5em;
       margin: 20px 0;
-      font-size: 2em;
+      animation: fadeIn 2s ease-in-out;
     }
-    .banner img {
+    .subtitle {
+      font-size: 1.2em;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+    .small img {
       width: 100%;
       max-height: 400px;
       object-fit: cover;
+      border-bottom: 2px solid #FFD700;
     }
-    footer {
+    .news {
+      padding: 40px 20px;
+    }
+    .news h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #FFD700;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .card {
       background-color: #222;
-      padding: 10px;
-      margin-top: 20px;
+      margin: 10px auto;
+      padding: 15px;
+      max-width: 600px;
+      border: 1px solid #FFD700;
+      border-radius: 8px;
+      animation: slideUp 1s ease-in-out;
     }
     .btn {
       display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #5865F2;
-      color: #fff;
+      margin-top: 30px;
+      padding: 12px 25px;
+      background-color: #FFD700;
+      color: #000;
       text-decoration: none;
       border-radius: 5px;
+      font-weight: bold;
     }
     .btn:hover {
-      background-color: #4752C4;
+      background-color: #FFA500;
     }
-  </style>
-</head>
-<body>
-  <header>
-   
-  </header>
-
-  <h1>ELIT — SEA Esports Network</h1>
-  <p>Players. Teams. Tournaments.</p>
-
-  <div class="small">
-  <img src="small.jpg" alt="Esports Banner">
-</div>
-
-<a class="btn" href="https://discord.gg/MGX9kPWNz" target="_blank">Join Our Discord</a>
-
-
-  <a class="btn" href="https://https://discord.gg/MGX9kPWNz" target="_blank">Join Our Discord</a>
-
-  <footer>
-    <p>Contact: contact@elitsea.com</p>
-  </footer>
-</body>
-</html>
+    footer {
+      background-color: #000;
+      padding: 15px;
+      margin-top: 40px;
+      border-top: 2px solid #FFD700;
+      color: #ccc;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
